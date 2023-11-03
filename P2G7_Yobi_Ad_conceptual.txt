@@ -1,0 +1,28 @@
+Pertanyaan
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+Jawaban
+1. NoSQL merupakan alat untuk menyimpan data yang mampu untuk menyimpan data selain daripada bentuk tabel, 
+salah satu bentuk yang umum ialah bentuk JSON atau yang mirip dengan dictionary di pyton,
+Namun NoSQL juga dapat digunakan untuk menyimpan data dalam bentuk semi-struktur ataupun unstruktur sehingga dianggap lebih fleksibel
+
+2. NoSQL dapat digunakan salah satunya ketika nilai dari suatu kolom atau key merupakan bentuk list, dimana dalam hal ini
+bila menggunakan SQL biasa akan kesulitan. Selain itu NoSQL digunakan ketika datanya tidak berbentuk tabel atau ketika
+data berbentuk semi struktur ataupun unstructur. NoSQL juga dapat mengatasi volume data yang amat besar.
+Sedangkan RDBMS digunakan ketika datanya terstruktur, memerlukan tingka keamanan yang tinggi, selain itu ketika data transaksi
+ayng cukup kompleks juga dapat memilih RDBMS sebagai pilihan yang baik
+
+3
+MongoDB:
+-mendukung skema dinamis, dapat menyimpan data dalam dokumen JSON-like tanpa perlu merencanakan skema terlebih dahulu.
+-skalabilitas horizontal, dapat menangani volume data yang sangat besar.
+-kaya akan kueri yang mendukung pencarian, indeks geospatial, dan lain-lainnya.
+-memiliki komunitas yang besar dan ekosistem yang besar.
+
+Cassandra:
+-skalabilitas linier, dapat menangani pertumbuhan data besar dan dapat mengintegrasikan banyak server dalam klaster.
+-dirancang untuk menawarkan toleransi kesalahan dengan replikasi data ke beberapa simpul dalam klaster, sehingga data tetap tersedia bahkan jika ada kegagalan simpul.
+-kinerja tinggi dengan dukungan untuk menulis dan membaca yang cepat, cocok untuk aplikasi yang memerlukan respons waktu rendah.
+-memungkinkan pengguna untuk mengonfigurasi faktor konsistensi, replikasi, dan banyak opsi lainnya sesuai kebutuhan aplikasi.
